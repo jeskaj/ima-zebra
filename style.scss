@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+
+$primary-color: rgb(137, 128, 194);
+$secondary-color: white;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bree Serif';
+}
+
+nav {
+    border: 1px solid red;
+}
+
+#z-nav {
+    width: 2rem;
+}
+
+header {
+    color: $secondary-color;
+    border: 1px solid red;
+}
+
+header > img {
+    width: 100%;
+}
+
+#header-background {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+#header-zebra {
+    border-radius: 50%;
+    width: 30%;
+}
+
+main {
+    border: 1px solid red;
+}
+
+article {
+    border: 1px solid red;
+}
+
+article > img {
+    width: 33%;
+    border: 2px solid $primary-color;
+    border-radius: 50%;
+}
+
+article > h3 {
+    font-size: 0.75rem;
+    color: $primary-color;
+}
+
+button {
+    color: $primary-color;
+    padding: 0.4rem;
+    border: 1px solid $primary-color;
+}
+
+footer {
+    color: $secondary-color;
+    border: 1px solid red;
+}
+
+#social-media {
+    font-size: 0.75rem;
+    background: $primary-color;
+}
